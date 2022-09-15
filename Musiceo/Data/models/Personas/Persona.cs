@@ -3,7 +3,7 @@
 namespace Musiceo.Data.models.Personas
 
 {
-    public abstract class Persona
+    public class Persona
     {
         public int PersonaId { get; set; }
         public string Nombre { get; set; }
