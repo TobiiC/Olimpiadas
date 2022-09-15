@@ -1,7 +1,9 @@
 ﻿using Musiceo.Data.enums;
+using Musiceo.Data.models.enums;
+
 namespace Musiceo.Data.models.Artistas;
 
-    public abstract class Artista
+    public class Artista
     {
         public string Nombre { get; set; }
         public Cancion Cancion { get; set; }
@@ -10,5 +12,7 @@ namespace Musiceo.Data.models.Artistas;
         public DateOnly? FechaFallecio { get; set; }
         public string genero { get; set; }
         public AñoArtista Año { get; set; }
+        public GeneroMusical Genero { get; set; }
+
     }
 
