@@ -7,6 +7,7 @@ namespace Musiceo.Data {
 
     {
         DbSet<Artista> Artistas { get; set; }
+        DbSet<Cancion> Canciones { get; set; }  
         DbSet<Juego> Juegos { get; set; }
 
 
