@@ -1,8 +1,9 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Musiceo.Data.models;
+using Musiceo.Data.Agregados;
 using Musiceo.Data.models.Artistas;
 
-namespace Musiceo.Data {
+namespace Musiceo.Data
+{
     public class Museodbcontext : DbContext
 
     {
