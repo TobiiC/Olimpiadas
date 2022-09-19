@@ -1,6 +1,10 @@
 ﻿namespace Musiceo.Data.Agregados
 {
     public class Mapa
-    { public 
+    {
+        public string recorrido { get; set; }
+
     }
+
+
 }
