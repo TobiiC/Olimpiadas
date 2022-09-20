@@ -1,9 +1,50 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
-
-<h1>Welcome stranger</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menu pagina</title>
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="centro">
+		<center><h2> Bienvenido a The</h2>  <br> <h2>  Golden Age </h2> </center>
+		<center>Este es un museo de artistas famosos de las decadas de los 80`s 90`s 2000s
+			<p>aqui podran encontrar tanto solistas como bandas de diferentes generos</p>
+		<p> musicales que fueron y son recordados como los iconos mas famosos de estos años.</p></center>
+	</div>
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>The<span>golden</span> age</h1>
+			</div>
+			<nav class="menu">
+				<ul>
+				<li><a href="header/nosotros.html">Nosotros</a></li>
+				<li><a href="../PAGINA/menu/agenda.html">Horarios</a></li>
+				<li><a href="header/Contacto.html">Contacto</a></li>
+				<li><a href="header/Comentario.html"> Comentarios</a></li>
+			</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="menu/artistas.html">Artistas</a>
+			<a href="menu/mapa.html">Mapa</a>
+			<a href="menu/actividades.html">Actividades</a>
+			<a href="menu/agenda.html">Agenda</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+</body>
+</html>
