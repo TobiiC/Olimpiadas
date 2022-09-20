@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musiceo", "Musiceo\Musiceo.csproj", "{767A050C-7921-4F25-BF5C-7D1EA52099D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusiceoMovil", "MusiceoMovil\MusiceoMovil.csproj", "{5153279F-9865-4DDE-B50C-491085A00CC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusiceoMovil", "MusiceoMovil\MusiceoMovil.csproj", "{5153279F-9865-4DDE-B50C-491085A00CC5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
